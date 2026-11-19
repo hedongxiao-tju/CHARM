@@ -1,0 +1,16 @@
+# Local datasets, full language models and outputs
+/data/
+/models/
+/logs/
+/checkpoints/
+/charm_backups/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+.venv/
+wandb/
+
+# Large binary weights are distributed separately (e.g. Google Drive).
+# Keep checkpoint config, metadata and historical logs in Git.
+/charm_pipeline/weights/**/*.bin
